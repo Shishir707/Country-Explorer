@@ -1,0 +1,20 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+  
+header h4 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #bdc3c7;
+    margin-top: 0;
+}
