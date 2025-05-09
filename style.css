@@ -11,6 +11,13 @@ header h1 {
     color: #fbfbf9;
     margin-bottom: 10px;
     letter-spacing: 2px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+  
+header h1:hover {
+    color: red; 
+    transform: scale(2.50);
+    cursor: pointer;
 }
   
 header h4 {
@@ -19,6 +26,67 @@ header h4 {
     color: bisque; 
     margin-top: 0;
 }
+
+.country {
+    padding: 30px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+  
+.country label {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #333;
+    font-weight: 700;
+}
+  
+.country input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+  
+.country h3 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+  
+.container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container h3 {
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+  }
+  
+.container button {
+    background-color: #4B0082;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+  
+.container button:hover {
+    background-color: #6A0DAD;
+    transform: scale(1.50);
+    cursor: pointer;
+}
+  
 
 footer{
   background-color: #4B0082;
@@ -39,24 +107,3 @@ footer a:hover{
   text-decoration: underline;
 }
 
-.country {
-    margin: 20px auto;
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-  
-.country label {
-    font-size: 18px;
-    margin-right: 10px;
-    color: #1a5ea3;
-    font-weight: 700;
-
-}
-  
-.country input {
-    padding: 8px 12px;
-    font-size: 16px;
-    border: 1px solid #0ebd28;
-    border-radius: 5px;
-}
-  
