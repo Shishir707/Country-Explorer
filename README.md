@@ -33,5 +33,3 @@
 4. The app will display information about the country.
 5. Click any of the "most searched" country buttons to quickly view their info.
 
-## Project Structure
-
