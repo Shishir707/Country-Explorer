@@ -33,6 +33,17 @@ function process(data) {
     });
 }
 
+function handleCountryClick(countryName) {
+    console.log(countryName);
+    
+    var url = `https://restcountries.com/v3.1/name/${countryName}`;
+    
+    fetch(url)
+    .then(res => res.json())
+    .then(data => process(data));
+}
+
+
 
 
 
