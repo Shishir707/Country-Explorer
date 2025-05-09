@@ -13,8 +13,9 @@
     </header>
     <section class="country">
         <label for="country">Enter Country Name:</label>
-        <input type="text" id="country" name="country" placeholder="e.g., Bangladesh">
-        
+        <input type="text" id="searchInput" name="country" placeholder="e.g., Bangladesh">
+        <button onclick="search()" id="btn">Search</button>
+        <div id="displayArea"></div>
         <h3>Most Visited Country</h3>
         <div class="container">
             <button onclick="handleCountryClick('Japan')">Japan</button>
@@ -35,5 +36,6 @@
           <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">Twitter</a>
         </p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
