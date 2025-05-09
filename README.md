@@ -1,51 +1,37 @@
 # Country Explorer
 
-**Country Explorer** is a user-friendly JavaFX (FXML) application that allows users to search for any country and view detailed information such as the flag, capital, currency, population, region, timezone, and languages. It also highlights the most searched countries with quick-access buttons.
+**Country Explorer** is a simple and interactive web application built with HTML, CSS, and JavaScript. Users can search for any country and view detailed information including the flag, capital, currency, population, region, timezone, and languages. It also features a list of most-searched countries for quick access.
 
 ## Features
 
-- Search for any country by name
-- View country details:
+- **Country Search**: Enter a country name and get instant details.
+- **Displayed Info Includes**:
   - Flag image
   - Common name
   - Capital city
-  - Currency name and symbol
+  - Currency (name and symbol)
   - Population
   - Region
   - Timezone(s)
-  - Official languages
-- Display of most-searched countries as clickable buttons
-- Click a popular country button to instantly view its details
+  - Languages
+- **Most Searched Countries**:
+  - Popular countries are shown as buttons.
+  - Clicking one shows its details instantly.
 
 ## Technologies Used
 
-- Java
-- JavaFX (FXML)
-- REST API (for country data)
-- HTTP client (Java built-in or external like OkHttp)
-
-## Screenshots
-
-*Add screenshots here if available.*
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+- [REST Countries API](https://restcountries.com/) for real-time data
 
 ## How to Use
 
-1. Launch the application.
-2. Type the name of a country in the input field.
+1. Open `index.html` in a browser.
+2. Enter a country name in the input field.
 3. Click the **Search** button.
-4. View the country's full details below.
-5. Click any country name from the "Most Searched" section to view its details again.
+4. The app will display information about the country.
+5. Click any of the "most searched" country buttons to quickly view their info.
 
-## Setup Instructions
+## Project Structure
 
-### Prerequisites
-
-- Java JDK 8 or higher
-- JavaFX SDK (for Java 8 or non-bundled Java versions)
-- Internet connection (to fetch country data from API)
-
-### Running the Application
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Country-Explorer.git
