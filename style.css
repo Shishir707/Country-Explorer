@@ -38,3 +38,25 @@ footer a{
 footer a:hover{
   text-decoration: underline;
 }
+
+.country {
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+  
+.country label {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #1a5ea3;
+    font-weight: 700;
+
+}
+  
+.country input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #0ebd28;
+    border-radius: 5px;
+}
+  
