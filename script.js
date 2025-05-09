@@ -2,6 +2,15 @@ function search() {
     const searchInput = document.getElementById('searchInput').value.trim();
     console.log(searchInput);
 
+    if (searchInput === '') {
+        Swal.fire({
+            icon: "error",
+            title: "Oops..",
+            text: "Please Enter Country Name",
+        });
+        return;
+    }
+
     var url = `https://restcountries.com/v3.1/name/${searchInput}`;
 
     fetch(url)

@@ -92,14 +92,16 @@ header h4 {
     border: none;
     border-radius: 8px;
     font-size: 16px;
-    transition: transform 0.3s, background-color 0.3s;
+    transition: transform 0.3s, background-color 0.3s ease;
 }
   
 .container button:hover {
-    background-color: #6A0DAD;
+    background-color: red;
     transform: scale(0.80);
+    color: white;
     cursor: pointer;
 }
+
   
 
 footer{
@@ -159,4 +161,8 @@ footer a:hover{
     color: #555;
     font-size: 14px;
 }
+
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  }
   
