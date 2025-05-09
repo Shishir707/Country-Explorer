@@ -1,6 +1,6 @@
 header {
-    background-color: black;
-    color: white;
+    background-color: #4B0082;
+    color: #FDEFF9;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -8,6 +8,7 @@ header {
 
 header h1 {
     font-size: 48px;
+    color: #fbfbf9;
     margin-bottom: 10px;
     letter-spacing: 2px;
 }
@@ -15,6 +16,25 @@ header h1 {
 header h4 {
     font-size: 20px;
     font-weight: 300;
-    color: #bdc3c7;
+    color: bisque; 
     margin-top: 0;
+}
+
+footer{
+  background-color: #4B0082;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+footer a{
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover{
+  text-decoration: underline;
 }
